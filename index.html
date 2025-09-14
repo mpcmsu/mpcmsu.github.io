@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Psychology Club | MPC</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #1a1a1a 0%, #b91c1c 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+        }
+        .transition-smooth {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-white">
+    <!-- Navigation -->
+    <nav class="bg-black shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i data-feather="activity" class="h-8 w-8 text-red-600"></i>
+                        <span class="ml-2 text-xl font-bold text-white">MPC</span>
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="#about" class="text-white hover:text-red-500 px-3 py-2 text-sm font-medium transition-smooth">About</a>
+                    <a href="#events" class="text-white hover:text-red-500 px-3 py-2 text-sm font-medium transition-smooth">Events</a>
+                    <a href="#contact" class="text-white hover:text-red-500 px-3 py-2 text-sm font-medium transition-smooth">Contact</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeE2S8-Ar0uEahXD2ar5pkvJSsK2q1SB8Qu7IPPZZDS6pWcqg/viewform" target="_blank" class="bg-white text-black px-4 py-2 rounded-md text-sm font-medium hover:bg-red-700 hover:text-white transition-smooth">Join Us</a>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-controls="mobile-menu" aria-expanded="false" id="mobile-menu-button">
+                        <i data-feather="menu" class="block h-6 w-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div class="hidden md:hidden" id="mobile-menu">
+            <div class="pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#about" class="block px-3 py-2 text-base font-medium text-white hover:text-red-600 hover:bg-gray-50">About</a>
+                <a href="#events" class="block px-3 py-2 text-base font-medium text-white hover:text-red-600 hover:bg-gray-50">Events</a>
+                <a href="#team" class="block px-3 py-2 text-base font-medium text-white hover:text-red-600 hover:bg-gray-50">Team</a>
+                <a href="#contact" class="block px-3 py-2 text-base font-medium text-white hover:text-red-600 hover:bg-gray-50">Contact</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeE2S8-Ar0uEahXD2ar5pkvJSsK2q1SB8Qu7IPPZZDS6pWcqg/viewform?pli=1&pli=1" target="_blank" class="block w-full text-left px-3 py-2 text-base font-medium text-red-600 hover:text-white hover:bg-red-700">Join Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Marketing Psychology Club</h1>
+                    <p class="text-xl md:text-2xl mb-8 opacity-90">Exploring the intersection of marketing strategies and human psychology to create impactful campaigns.</p>
+                    <div class="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeE2S8-Ar0uEahXD2ar5pkvJSsK2q1SB8Qu7IPPZZDS6pWcqg/viewform" target="_blank" class="bg-white text-red-600 px-6 py-3 rounded-md text-lg font-semibold hover:bg-gray-100 transition-smooth text-center">Join Now</a>
+                        <a href="#about" class="bg-transparent border-2 border-white text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-white hover:text-red-600 transition-smooth text-center">Learn More</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2" data-aos="fade-left">
+                    <img src="http://static.photos/technology/1024x576/1" alt="Marketing Psychology" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">About MPC</h2>
+                <div class="w-20 h-1 bg-red-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">Who We Are</h3>
+                    <p class="text-gray-600 mb-6">The Marketing Psychology Club (MPC) is a student-led organization in the Faculty of Business Management and Professional Studies (FBMP), dedicated to exploring how psychological principles can be applied to create more effective marketing strategies.</p>
+                    <p class="text-gray-600 mb-6">We bring together students from various courses who share an interest in understanding consumer behavior, decision-making processes, and the psychological triggers that influence purchasing decisions.</p>
+                    <div class="flex space-x-4">
+                        <div class="flex items-center">
+                            <i data-feather="users" class="h-5 w-5 text-indigo-600 mr-2"></i>
+                            <span class="text-gray-700">150+ Members</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="calendar" class="h-5 w-5 text-indigo-600 mr-2"></i>
+                            <span class="text-gray-700">Monthly Events</span>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-left">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-white p-6 rounded-lg shadow-md transition-smooth card-hover">
+                            <i data-feather="target" class="h-8 w-8 text-indigo-600 mb-4"></i>
+                            <h4 class="font-semibold text-lg mb-2">Our Mission</h4>
+                            <p class="text-gray-600 text-sm">To bridge the gap between psychological theory and marketing practice through research, discussion, and real-world applications.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md transition-smooth card-hover">
+                            <i data-feather="eye" class="h-8 w-8 text-indigo-600 mb-4"></i>
+                            <h4 class="font-semibold text-lg mb-2">Our Vision</h4>
+                            <p class="text-gray-600 text-sm">Create a community of forward-thinking marketers who understand the psychology behind consumer decisions.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md transition-smooth card-hover">
+                            <i data-feather="award" class="h-8 w-8 text-indigo-600 mb-4"></i>
+                            <h4 class="font-semibold text-lg mb-2">What We Do</h4>
+                            <p class="text-gray-600 text-sm">Workshops, case studies, guest lectures, and hands-on projects to apply psychological principles to marketing.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md transition-smooth card-hover">
+                            <i data-feather="trending-up" class="h-8 w-8 text-indigo-600 mb-4"></i>
+                            <h4 class="font-semibold text-lg mb-2">Benefits</h4>
+                            <p class="text-gray-600 text-sm">Networking, skill development, and practical experience that enhances your marketing career.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+     <section id="events" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Upcoming Events</h2>
+                <div class="w-20 h-1 bg-red-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md transition-smooth card-hover" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/workspace/640x360/1" alt="Event" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <i data-feather="calendar" class="h-4 w-4 mr-2"></i>
+                            <span>October 15, 2023</span>
+                        </div>
+                        <h3 class="font-semibold text-xl mb-2">Badminton Night</h3>
+                        <p class="text-gray-600 mb-4">Explore how psychological principles shape brand perception and loyalty in consumers.</p>
+                        <a href="" target="_blank" class="text-red-700 font-medium hover:text-indigo-800 transition-smooth inline-flex items-center">
+                            Register Now <i data-feather="arrow-right" class="h-4 w-4 ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md transition-smooth card-hover" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/office/640x360/2" alt="Event" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <i data-feather="calendar" class="h-4 w-4 mr-2"></i>
+                            <span>November 5, 2023</span>
+                        </div>
+                        <h3 class="font-semibold text-xl mb-2">Consumer Decision Making</h3>
+                        <p class="text-gray-600 mb-4">Understand the cognitive processes behind consumer choices and how to influence them.</p>
+                        <a href="" target="_blank" class="text-red-700 font-medium hover:text-indigo-800 transition-smooth inline-flex items-center">
+                            Register Now <i data-feather="arrow-right" class="h-4 w-4 ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md transition-smooth card-hover" data-aos="fade-up" data-aos-delay="300">
+                    <img src="http://static.photos/people/640x360/3" alt="Event" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <i data-feather="calendar" class="h-4 w-4 mr-2"></i>
+                            <span>December 10, 2023</span>
+                        </div>
+                        <h3 class="font-semibold text-xl mb-2">Neuromarketing Workshop</h3>
+                        <p class="text-gray-600 mb-4">Hands-on session on using neuroscience techniques to measure consumer responses.</p>
+                        <a href="" target="_blank" class="text-red-700 font-medium hover:text-indigo-800 transition-smooth inline-flex items-center">
+                            Register Now <i data-feather="arrow-right" class="h-4 w-4 ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-red-700 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center" data-aos="fade-up">
+            <h2 class="text-3xl font-bold mb-6">Ready to Join MPC?</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">Become part of our growing community of marketing psychology enthusiasts and take your skills to the next level.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeE2S8-Ar0uEahXD2ar5pkvJSsK2q1SB8Qu7IPPZZDS6pWcqg/viewform?pli=1&pli=1" target="_blank" class="inline-flex items-center px-8 py-4 border border-transparent text-lg font-medium rounded-md text-red-700 bg-white hover:bg-gray-100 transition-smooth shadow-lg">
+                Register Now <i data-feather="arrow-right" class="h-5 w-5 ml-2"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+   <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Contact Us</h2>
+                <div class="w-20 h-1 bg-red-600 mx-auto"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div data-aos="fade-right">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-6">Get In Touch</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <i data-feather="mail" class="h-6 w-6 text-indigo-600"></i>
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-lg font-medium text-gray-900">Email</p>
+                                <p class="text-gray-600">marketingpsychologyclub.msu@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <h4 class="text-lg font-medium text-gray-900 mb-4">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="https://instagram.com/msu_mpc" class="text-gray-400 hover:text-indigo-600 transition-smooth"><i data-feather="instagram" class="h-6 w-6"></i></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center">
+                        <i data-feather="activity" class="h-8 w-8 text-red-600"></i>
+                        <span class="ml-2 text-xl font-bold">MPC</span>
+                    </div>
+                    <p class="mt-4 text-gray-400 text-sm">Marketing Psychology Club at University Campus. Exploring the psychology behind effective marketing.</p>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-300 tracking-wider uppercase mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-smooth">About</a></li>
+                        <li><a href="#events" class="text-gray-400 hover:text-white transition-smooth">Events</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-smooth">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800">
+                <p class="text-gray-400 text-sm text-center">&copy; 2025 Marketing Psychology Club. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Initialize AOS and Feather Icons
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init({
+                duration: 800,
+                easing: 'ease-in-out',
+                once: true
+            });
+            feather.replace();
+        });
+    </script>
+</body>
+</html>
