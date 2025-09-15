@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPC iD | Marketing Psychology Club</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #1a1a1a 0%, #b91c1c 100%);
+        }
+        .transition-smooth {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-white">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <img src="mpc ac logo.png" alt="MPC Logo" class="h-14 w-14">
+                </div>
+                <div class="hidden md:flex md:items-center md:space-x-8">
+                    <a href="index.html" class="text-black hover:text-red-600 transition-smooth">Home</a>
+                    <a href="#contact" class="text-black hover:text-red-600 transition-smooth">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-16">
+        <div class="max-w-3xl mx-auto text-center px-6">
+            <h1 class="text-4xl font-bold mb-4" data-aos="fade-up">Your MPC iD</h1>
+            <p class="text-lg opacity-90" data-aos="fade-up" data-aos-delay="100">
+                Your exclusive pass to all things MPC — events, perks, and member-only benefits.
+            </p>
+        </div>
+    </section>
+
+    <!-- What is MPC iD -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6" data-aos="fade-right">What is MPC iD?</h2>
+            <p class="text-gray-700 mb-8" data-aos="fade-right" data-aos-delay="100">
+                MPC iD is your <strong>membership identity card</strong>, a simple way to prove you’re part of the Marketing Psychology Club. 
+                Think of it as a pass that gives you access to <strong>member-only benefits</strong>, priority registration for events, and special perks.
+            </p>
+            <div class="flex justify-center mb-8" data-aos="fade-up">
+    <img src="mpc-id-card.png" alt="MPC iD Card" class="rounded-lg shadow-lg max-w-xs">
+</div>
+            <!-- Comparison Section -->
+            <h2 class="text-2xl font-bold text-gray-900 mb-6" data-aos="fade-up">Why It Matters?</h2>
+            <div class="grid md:grid-cols-2 gap-8" data-aos="fade-up" data-aos-delay="100">
+                <!-- Non-Member -->
+                <div class="border border-gray-200 rounded-xl p-6 bg-gray-50 shadow-sm">
+                    <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                        <i data-feather="x-circle" class="text-gray-500 w-5 h-5 mr-2"></i> Non-Members
+                    </h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li>❌ No guaranteed spot for limited events</li>
+                        <li>❌ No early notifications</li>
+                        <li>❌ No access to member-only perks</li>
+                        <li>❌ Miss out on networking opportunities</li>
+                    </ul>
+                </div>
+
+                <!-- Member -->
+                <div class="border border-red-300 rounded-xl p-6 bg-red-50 shadow-lg">
+                    <h3 class="text-xl font-bold text-red-700 mb-4 flex items-center">
+                        <i data-feather="check-circle" class="text-red-700 w-5 h-5 mr-2"></i> MPC Members
+                    </h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li>✅ Priority seat booking for events</li>
+                        <li>✅ Early access to news & announcements</li>
+                        <li>✅ Special member-only giveaways & perks</li>
+                        <li>✅ Stronger network & recognition in MPC</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Get It -->
+    <!-- How to Get It -->
+<section class="py-16 bg-gray-100">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4" data-aos="fade-up">How to Get Your MPC iD</h2>
+        <p class="text-gray-700 mb-6" data-aos="fade-up" data-aos-delay="100">
+            Signing up takes less than <strong>2 minutes</strong>. No complicated steps. No extra hassle.
+            Just fill out a quick form, and we’ll send you your unique MPC iD instantly.
+        </p>
+
+        <div class="text-left bg-white shadow-md rounded-lg p-6 max-w-md mx-auto mb-8" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="text-lg font-semibold text-gray-800 mb-4 flex items-center">
+                <i data-feather="clipboard" class="text-red-700 w-5 h-5 mr-2"></i> Here’s how it works:
+            </h3>
+            <ol class="list-decimal list-inside space-y-3 text-gray-700">
+                <li>Click the button below</li>
+                <li>Fill out your details</li>
+                <li>Submit and get your MPC iD and group links instantly by email</li>
+            </ol>
+        </div>
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeE2S8-Ar0uEahXD2ar5pkvJSsK2q1SB8Qu7IPPZZDS6pWcqg/viewform" 
+   target="_blank"
+   class="inline-flex items-center px-8 py-4 bg-red-700 text-white font-semibold rounded-lg shadow-lg hover:bg-black transition-smooth">
+    Get Your MPC iD Now
+    <i data-feather="arrow-right" class="ml-2 w-5 h-5" style="stroke: white;"></i>
+</a>
+
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-6 mt-12">
+        <div class="text-center text-gray-400 text-sm">
+            &copy; 2025 Marketing Psychology Club. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
+        feather.replace({ 'stroke': '#b91c1c' }); // makes icons match your red theme
+    </script>
+</body>
+</html>
